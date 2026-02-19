@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-omics`](https://www.npmjs.com/package/@aws-sdk/client-omics/v/3.686.0).
+[`@aws-sdk/client-omics`](https://www.npmjs.com/package/@aws-sdk/client-omics/v/3.687.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.686.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.687.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-UY+pav/lXMrgTkpozZOJyBVvebUxxi4L3M6W4DeM4666xFE2l8PJxkBjqDYvvyP9
+sha384-Kzajy8EH8sckfhzU/KDpYd9b6j7NgPNnzHFXQojMeJXe23NOZDzu23jwDGF3olH4
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-omics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.686.0/index.min.mjs"
+            "@aws-sdk/client-omics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.687.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.686.0/index.min.mjs": "sha384-UY+pav/lXMrgTkpozZOJyBVvebUxxi4L3M6W4DeM4666xFE2l8PJxkBjqDYvvyP9"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.687.0/index.min.mjs": "sha384-Kzajy8EH8sckfhzU/KDpYd9b6j7NgPNnzHFXQojMeJXe23NOZDzu23jwDGF3olH4"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-omics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.686.0/index.min.mjs"
+                        "@aws-sdk/client-omics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.687.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.686.0/index.min.mjs": "sha384-UY+pav/lXMrgTkpozZOJyBVvebUxxi4L3M6W4DeM4666xFE2l8PJxkBjqDYvvyP9"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-omics@3.687.0/index.min.mjs": "sha384-Kzajy8EH8sckfhzU/KDpYd9b6j7NgPNnzHFXQojMeJXe23NOZDzu23jwDGF3olH4"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.686.0`)
+* Always pin to a specific version (`@3.687.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-omics/blob/refs/tags/3.686.0/LICENSE
+https://github.com/cloud-sdk-builds/client-omics/blob/refs/tags/3.687.0/LICENSE
 ```
 
 ---
